@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    max-width: 1520px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 1.5rem 2rem;
+
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1;
+    box-shadow: #ccc;
+
+    a:not(last-child) {
+        letter-spacing: 0.4rem;
+        padding: 0.8rem 1.6rem;
+        font-size: 1.5rem;
+    }
+
+    a:hover{
+        background-color: #ccc;
+    }
+}
+
+header {
+    div{
+        position: relative;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 3.6rem;
+        opacity: 0.5;
+
+        position: absolute;
+        left: 20px;
+        bottom: 2rem;
+
+    }
+}
+
+section {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+
+
+    div{
+        padding: 12px 24px;
+    }
+
+    h2, h3 {
+        font-size: 2rem;
+
+    }
+
+    p {
+        font-family: sans-serif;
+        max-width: 500px;
+        font-size: 1.8rem;
+        line-height: 1.5em;
+        margin: 1.8rem 0;
+    }
+
+    h2,h3 {
+        text-align: center;
+    }
+
+
+    p:last-child{
+        opacity: 0.6;
+    }
+}
+
+span {
+    background-color: #f1f1f1;
+    padding: 4px 4px;
+}
